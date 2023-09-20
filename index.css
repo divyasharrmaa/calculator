@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(120deg,#7b7777,#5a5656);
+}
+.calculator{
+    border: 1.5px solid #a8abaf;
+    padding: 20px;
+    border-radius: 14px;
+    background: transparent;
+    box-shadow: 0px 3px 15px #a8abaf  ;
+}
+input{
+    width: 320px;
+    border: none;
+    padding:24px ;
+    margin: 10px;
+    background: transparent;
+    box-shadow:0px 3px 15px #a8abaf;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+input::placeholder{
+    color: #e4dcdc;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 30%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    background-color: #908b8b;
+    box-shadow: -7px -7px 13px rgba(255, 255, 255, 0.1) ;
+    cursor: pointer;
+}
+.equalBtn{
+    background-color:rgb(47, 47, 68);
+}
+.operator{
+    color:#2a2929;
+}
